@@ -2,7 +2,7 @@
 
 A comprehensive web-based educational management system built with PHP, designed to streamline administrative tasks for educational institutions. The system provides features for managing courses, students, fees, payments, and administrative functions.
 
-## 🚀 Features
+## Features
 
 ### Core Functionality
 - **Student Management**: Complete student registration and profile management
@@ -20,25 +20,25 @@ A comprehensive web-based educational management system built with PHP, designed
 - **Reporting System**: Comprehensive reports for payments and system activities
 - **User Management**: Role-based access control system
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 call_remainder/
-├── 📄 Core PHP Files
+├── Core PHP Files
 │   ├── index.php              # Main entry point
 │   ├── login.php              # User authentication
 │   ├── db_connect.php         # Database connection
 │   ├── ajax.php               # AJAX request handler
 │   └── admin_class.php        # Admin functionality
 │
-├── 📋 Management Modules
+├── Management Modules
 │   ├── manage_student.php     # Student management
 │   ├── manage_course.php      # Course management
 │   ├── manage_fee.php         # Fee management
 │   ├── manage_payment.php     # Payment management
 │   └── manage_user.php        # User management
 │
-├── 📊 Display & Reports
+├── Display & Reports
 │   ├── students.php           # Student listing
 │   ├── courses.php            # Course listing
 │   ├── fees.php               # Fee structure display
@@ -46,23 +46,23 @@ call_remainder/
 │   ├── payments_report.php    # Payment reports
 │   └── logs.php               # System logs
 │
-├── 🎨 UI Components
+├── UI Components
 │   ├── header.php             # Page header
 │   ├── navbar.php             # Navigation bar
 │   ├── topbar.php             # Top navigation
 │   └── home.php               # Dashboard home
 │
-├── 🖼️ Assets
+├── Assets
 │   ├── Multiple GIF images    # UI animations and graphics
 │   ├── JPEG/PNG images       # Static images and icons
 │   ├── kit.png               # Application kit/logo
 │   └── rem.mp3               # Reminder audio file
 │
-└── ⚙️ Configuration
+└── Configuration
     └── site_settings.php      # System configuration
 ```
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Backend**: PHP
 - **Database**: MySQL (implied from db_connect.php)
@@ -70,14 +70,14 @@ call_remainder/
 - **Audio**: MP3 support for reminder functionality
 - **Graphics**: GIF animations, JPEG/PNG images
 
-## 📋 Prerequisites
+## Prerequisites
 
 - PHP 7.4 or higher
 - MySQL 5.7 or higher
 - Web server (Apache/Nginx)
 - Modern web browser
 
-## 🚀 Installation
+## Installation
 
 1. **Clone the repository**
    ```bash
@@ -99,7 +99,7 @@ call_remainder/
    - Access `site_settings.php` to configure system settings
    - Set up admin credentials through the login system
 
-## 🎯 Usage
+## Usage
 
 ### Admin Access
 1. Navigate to the application URL
@@ -113,7 +113,7 @@ call_remainder/
 - **Payment Tracking**: Monitor payments through `payments.php`
 - **Reports**: Generate reports via `payments_report.php`
 
-## 🔧 Configuration
+## Configuration
 
 ### Database Connection
 Update the database connection settings in `db_connect.php`:
@@ -132,7 +132,7 @@ Access `site_settings.php` to configure:
 - Payment gateway configuration
 - System preferences
 
-## 📱 Features Overview
+## Features Overview
 
 ### Student Management
 - Complete student profiles
@@ -158,14 +158,14 @@ Access `site_settings.php` to configure:
 - Comprehensive reporting
 - Site configuration management
 
-## 🔐 Security Features
+## Security Features
 
 - User authentication system
 - Role-based access control
 - Secure database connections
 - Input validation and sanitization
 
-## 📞 Reminder System
+## Reminder System
 
 The application includes an audio reminder system (`rem.mp3`) that can be used for:
 - Payment due notifications
@@ -173,7 +173,7 @@ The application includes an audio reminder system (`rem.mp3`) that can be used f
 - Important announcements
 - System alerts
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
@@ -181,22 +181,22 @@ The application includes an audio reminder system (`rem.mp3`) that can be used f
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 👨‍💻 Author
+## Author
 
 **Dharaneesh**
 - GitHub: [@dharaneesh-2005](https://github.com/dharaneesh-2005)
 
-## 📞 Support
+## Support
 
 For support and questions:
 - Create an issue in the GitHub repository
 - Contact the developer through GitHub profile
 
-## 🔄 Version History
+## Version History
 
 - **v1.0.0** - Initial release with core functionality
   - Student management
@@ -204,14 +204,14 @@ For support and questions:
   - Payment processing
   - Admin dashboard
 
-## 🎯 Roadmap
+## Roadmap
 
-- [ ] Enhanced reporting dashboard
-- [ ] Mobile-responsive design improvements
-- [ ] API integration for third-party services
-- [ ] Advanced notification system
-- [ ] Multi-language support
-- [ ] Advanced analytics and insights
+Enhanced reporting dashboard
+Mobile-responsive design improvements
+API integration for third-party services
+Advanced notification system
+Multi-language support
+Advanced analytics and insights
 
 ---
 
